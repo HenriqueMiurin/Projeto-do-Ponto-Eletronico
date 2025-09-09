@@ -1,0 +1,19 @@
+{
+  "name": "ponto_certo_server",
+  "version": "1.0.0",
+  "description": "Servidor backend para o sistema Ponto Certo (projeto acadêmico)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.2.0"
+  }
+}
